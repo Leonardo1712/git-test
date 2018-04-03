@@ -11,10 +11,10 @@ using namespace std;
 int main(void)
 {
 	int aux;
-	cout<<"Enter a number"<<endl;
+	cout<<"Please select one option 1) 2) 3)..."<<endl;
 	cin>>aux;
 
-	cout<<"Your number is " <<aux<<endl;
+	cout<<"your snswer is: " <<aux<<endl;
 
 	//system("pause");
 	return 0;
