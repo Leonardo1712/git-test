@@ -11,10 +11,19 @@ using namespace std;
 int main(void)
 {
 	int aux;
-	cout<<"Please select one option 1) 2) 3)..."<<endl;
+
+	cout<<"Please select one option..."<<endl;
+	cout<<"1) To log in"<<endl;
+	cout<<"2) To log out"<<endl;
 	cin>>aux;
 
-	cout<<"your snswer is: " <<aux<<endl;
+	if(aux==1)
+	{
+		cout<<"Welcome Back Leonardo"<<endl;
+	}else 
+	{
+		cout<<"See you Later Leonardo"<<endl;
+	}
 
 	//system("pause");
 	return 0;
